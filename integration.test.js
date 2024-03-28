@@ -19,5 +19,3 @@ test('clicking roll button should increment current score if dice is not 1', () 
   // Assert that current score is greater than 0
   expect(currentScoreAfterRoll).toBeGreaterThan(0);
 });
-
-// Add more integration tests as needed
